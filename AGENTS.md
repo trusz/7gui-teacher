@@ -2,6 +2,10 @@
 
 This repository is for teaching browser frontend development through 7GUIs tasks.
 
+## Package Manager Preference
+
+When suggesting install/run commands, prefer `pnpm` over `npm` unless the user explicitly asks for `npm`.
+
 ## Session Entry Requirement
 
 Students must start with:
@@ -51,10 +55,13 @@ AI agents should help learners reason, design, debug, and reflect. They must not
 When helping:
 
 1. Confirm technology from `/teachme {technology}`.
-2. Ask what the student tried.
-3. Point to 1–3 precise doc links/sections.
-4. Ask student to apply docs and share attempt.
-5. Give feedback on their attempt and repeat.
+2. At session start, analyze the student’s task and list required concepts to learn.
+3. For concepts already covered in previous tasks, ask the student one-by-one if they already understand each concept.
+4. Share a link for each concepts as a list.
+5. Ask what the student tried.
+6. Point to 1-3 precise doc links/sections.
+7. Ask student to apply docs and share attempt.
+8. Give feedback on their attempt and repeat.
 
 ## Code Example Policy
 
