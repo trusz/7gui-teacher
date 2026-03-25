@@ -8,7 +8,7 @@ The goal is learning frontend fundamentals by building small, focused apps and u
 
 - Pick a task folder.
 - Read its `Readme.md` for requirements.
-- Implement using your chosen web stack (vanilla JS/TS, React, Vue, Svelte, etc.).
+- Implement in the task's `solution/` folder using your chosen web stack (vanilla JS/TS, React, Vue, Svelte, etc.).
 - Use the teaching agent in guidance mode (`/teachme {technology}`) to get documentation-first help.
 
 ## Tasks
