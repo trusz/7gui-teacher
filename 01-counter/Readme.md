@@ -1,15 +1,9 @@
 # Counter
 
-**Challenge:** Understanding basic language/toolkit ideas.
+**Challenge:** Understanding the basic ideas of a language/toolkit.
 
 ![Counter task screenshot](../assets/counter.png)
 
-Build a UI with:
-- a read-only text field or label `T`
-- a button `B`
+The task is to build a frame containing a label or read-only textfield T and a button B. Initially, the value in T is "0" and each click of B increases the value in T by one.
 
-Behavior:
-- `T` starts at `0`
-- every click on `B` increments `T` by `1`
-
-Focus on minimal scaffolding and clear event/state wiring.
+Counter serves as a gentle introduction to the basics of the language, paradigm and toolkit for one of the simplest GUI applications imaginable. Thus, Counter reveals the required scaffolding and how the very basic features work together to build a GUI application. A good solution will have almost no scaffolding.

@@ -1,22 +1,9 @@
 # Temperature Converter
 
-**Challenges:** Bidirectional data flow, user text validation.
+**Challenges:** bidirectional data flow, user-provided text input.
 
 ![Temperature Converter task screenshot](../assets/temperature-converter.png)
 
+The task is to build a frame containing two textfields TC and TF representing the temperature in Celsius and Fahrenheit, respectively. Initially, both TC and TF are empty. When the user enters a numerical value into TC the corresponding value in TF is automatically updated and vice versa. When the user enters a non-numerical string into TC the value in TF is not updated and vice versa. The formula for converting a temperature C in Celsius into a temperature F in Fahrenheit is C = (F - 32) * (5/9) and the dual direction is F = C * (9/5) + 32.
 
-Build a UI with two text inputs:
-- `TC` (Celsius)
-- `TF` (Fahrenheit)
-
-Behavior:
-- both start empty
-- typing a valid number in `TC` updates `TF`
-- typing a valid number in `TF` updates `TC`
-- invalid input in one field does **not** update the other
-
-Formulas:
-- `F = C * (9/5) + 32`
-- `C = (F - 32) * (5/9)`
-
-Focus on clarity of two-way updates without loops.
+Temperature Converter increases the complexity of Counter by having bidirectional data flow between the Celsius and Fahrenheit inputs and the need to check the user input for validity. A good solution will make the bidirectional dependency very clear with minimal boilerplate code.
